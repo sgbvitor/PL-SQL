@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tst" id="02D0B47D-31E2-B37F-9F35-ED81A7D9EA64" version="3.5">
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:23:04 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>02D0B47D-31E2-B37F-9F35-ED81A7D9EA64</designId>
+</OSDM_Design>

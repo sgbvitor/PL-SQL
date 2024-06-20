@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D92E5A7-3E5C-38A3-2790-A238EC4A18C8" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="NOTAS_FISCAIS">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>NOTAS_FISCAIS</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="5256BD9F-59DB-965B-E286-06EA61978B9B">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>CPF</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C085AAC4-C531-1E47-9DE2-3D60E049C557" referredColumn="1D49AE7F-583C-D2B7-BD83-6ACBBD9F84E6"/>
+</associations>
+</Column>
+<Column name="MATRICULA" id="17C700BD-3B6F-F7F9-040C-EFAC8647629E">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>MATRICULA</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03785310-8846-3BBB-4BCE-5583F038C44B" referredColumn="D3211D95-FBDB-CBFE-6029-295A9D8CE7F2"/>
+</associations>
+</Column>
+<Column name="DATA_VENDA" id="2A28A900-ABD5-301F-B412-E20FF6599765">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>DATA_VENDA</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="E82A66E8-628D-46E8-6593-72389B5CA462">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPOSTO" id="052AD249-CC07-6AE0-5594-6AD7A624BBE4">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>IMPOSTO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51540C77-F965-9AFB-2EC1-91252FB46FEF" name="PK_NOTAS_FISCAIS">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NOTAS_FISCAIS</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E82A66E8-628D-46E8-6593-72389B5CA462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="273F407F-A128-0D79-224B-2B653E433143" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="PK_NOTAS_FISCAIS">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NOTAS_FISCAIS</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E82A66E8-628D-46E8-6593-72389B5CA462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4059BE6A-B508-9242-1385-26B287ACF762" name="FK_NOTAS_FISCAIS1">
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C700BD-3B6F-F7F9-040C-EFAC8647629E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35D5EFB6-BF42-FE7E-9C8E-0F6001CAAD71" name="FK_NOTAS_FISCAIS2">
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:35:55 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5256BD9F-59DB-965B-E286-06EA61978B9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

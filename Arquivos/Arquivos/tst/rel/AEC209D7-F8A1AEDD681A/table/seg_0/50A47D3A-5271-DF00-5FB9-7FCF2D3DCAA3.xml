@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50A47D3A-5271-DF00-5FB9-7FCF2D3DCAA3" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="TABELA_DE_PRODUTOS">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TABELA_DE_PRODUTOS</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DO_PRODUTO" id="DBC25460-0B6A-7853-625E-BE12838F4DF9">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>CODIGO_DO_PRODUTO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_DO_PRODUTO" id="DE42F8E7-9075-08F8-CF7A-D8246B8AB9C5">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>NOME_DO_PRODUTO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMBALAGEM" id="CE970807-2862-9391-9F52-C0F57669250A">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>EMBALAGEM</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANHO" id="07344777-1A93-08DF-FD98-03D158832EFF">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>TAMANHO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SABOR" id="98EA5D5A-AF4E-3E9E-1C58-A50C7A358132">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>SABOR</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO_DE_LISTA" id="10B6E2D9-1B04-8F23-3DE6-53E7C04D362D">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>PRECO_DE_LISTA</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77AA1A55-76E1-2E4D-40D4-DD2267C8F4FC" name="PK_TABELA_DE_PRODUTOS">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_PRODUTOS</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC25460-0B6A-7853-625E-BE12838F4DF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="269FEA76-5E1A-AF1A-E516-CBA3E5BF1C7C" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="PK_TABELA_DE_PRODUTOS">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_PRODUTOS</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:33:38 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC25460-0B6A-7853-625E-BE12838F4DF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

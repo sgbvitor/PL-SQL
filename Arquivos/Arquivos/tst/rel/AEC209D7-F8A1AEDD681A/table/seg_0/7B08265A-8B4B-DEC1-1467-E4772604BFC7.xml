@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B08265A-8B4B-DEC1-1467-E4772604BFC7" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="TABELA_DE_VENDEDORES">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATRICULA" id="D3211D95-FBDB-CBFE-6029-295A9D8CE7F2">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>MATRICULA</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="CE172D2A-B4BC-5C2C-D68B-02A8801F8F52">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERCENTUAL_COMISSAO" id="5FB24332-5EEF-471B-22FA-97E618033861">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>PERCENTUAL_COMISSAO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ADMISSAO" id="AE3ABB0A-794B-BAEC-0D91-E637A02882F4">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>DATA_ADMISSAO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DE_FERIAS" id="E7B2537A-EBDC-014F-5A49-E45AAF9CC81C">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>DE_FERIAS</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="19592F07-0C8D-C08C-41BB-AEC36DEA799B">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>BAIRRO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="839E21B5-F69E-BF8D-0E07-BAD9A6519217" name="PK_TABELA_DE_VENDEDORES">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3211D95-FBDB-CBFE-6029-295A9D8CE7F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EEAB2B7-3E61-6ABC-ACB2-D753BD44EC5E" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="PK_TABELA_DE_VENDEDORES">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:32:54 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3211D95-FBDB-CBFE-6029-295A9D8CE7F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

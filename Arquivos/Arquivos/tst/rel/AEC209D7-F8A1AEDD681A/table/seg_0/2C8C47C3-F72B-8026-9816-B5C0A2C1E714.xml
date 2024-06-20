@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C8C47C3-F72B-8026-9816-B5C0A2C1E714" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="TABELA_DE_CLIENTES">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TABELA_DE_CLIENTES</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="1D49AE7F-583C-D2B7-BD83-6ACBBD9F84E6">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>CPF</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="39561EAF-03EB-FFB8-7583-DA467DE74697">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_1" id="6D523D1E-90E1-BBF2-04E3-4AB1C9045B8B">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>ENDERECO_1</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_2" id="5501AC53-CA25-C2AA-066D-670D3534CB06">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>ENDERECO_2</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="C63C6F5A-E89C-B6A4-03DA-9308F04ED376">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>BAIRRO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="644DDBEC-6C6A-FA9F-CB0F-8EC22C4739B1">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>CIDADE</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="8B816F87-0383-AE5D-90B4-55E48CD1060F">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="21E88C57-F3EE-1B82-7470-242BE5B1917C">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>CEP</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DE_NASCIMENTO" id="FF5F01B0-C942-9175-AFCA-A4C4C0CD86B4">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>DATA_DE_NASCIMENTO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDADE" id="D8ED9E45-8E24-AF66-805D-3281CAA50B3E">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>IDADE</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="23A48468-C476-8438-9232-4201E950487F">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>SEXO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIMITE_DE_CREDITO" id="79B06AF1-5D07-29D1-5FDB-43687AB8326E">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>LIMITE_DE_CREDITO</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLUME_DE_COMPRA" id="87D76210-04A3-B567-D3D0-EC4CBE13B286">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>VOLUME_DE_COMPRA</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMEIRA_COMPRA" id="94D714E3-49E6-807A-18BB-8D761A0F0A37">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>PRIMEIRA_COMPRA</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF768677-28C2-0CC5-4CE8-E801B496488B" name="PK_TABELA_DE_CLIENTES">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_CLIENTES</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D49AE7F-583C-D2B7-BD83-6ACBBD9F84E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F382E8C3-5236-91F6-C61E-BC9AC9553818" schemaObject="96947CE5-AA12-7C1F-D1E7-2A4400AD6D2B" name="PK_TABELA_DE_CLIENTES">
+<sourceConnName>XEDATABASE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_CLIENTES</sourceObjName>
+<createdBy>sgvit</createdBy>
+<createdTime>2024-06-14 00:31:58 UTC</createdTime>
+<ownerDesignName>tst</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D49AE7F-583C-D2B7-BD83-6ACBBD9F84E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
